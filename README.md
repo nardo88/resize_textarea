@@ -70,7 +70,10 @@ textarea.addEventListener('keyup', e => {
 
 function textarea_resize(textarea, block, line_height) {
     /*
-    в блок поместили значение value т.к. у div в CSS стоит white-space: pre-wrap; и word-wrap: break-word; то перенос строки отражается в div, а значит высота элемента растет по мере наполнения текстом
+    в блок поместили значение value т.к. у div в CSS стоит 
+    white-space: pre-wrap; и word-wrap: break-word; то перенос 
+    строки отражается в div, а значит высота элемента растет 
+    по мере наполнения текстом
     */
     block.textContent = textarea.value;
     // получили высоту блока
