@@ -2,7 +2,13 @@
 
  [ссылка](https://nardo88.github.io/resize_textarea/) на презентацию
 
- ##Описание
+ ## Описание
+
+ ### HTML
+```html
+<textarea id="text_area" ></textarea>
+<div id="text_area_div"></div>
+```
 
 ### CSS код
 
@@ -45,3 +51,5 @@
 }
 
 ```
+
+### JavaScript
